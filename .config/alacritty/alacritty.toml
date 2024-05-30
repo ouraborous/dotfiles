@@ -1,0 +1,17 @@
+[font]
+#size = 14
+
+[font.normal]
+family = "CaskaydiaCove Nerd Font Mono"
+style = "SemiBold,Regular"
+
+[scrolling]
+history = 0
+
+[shell]
+args = ["-c", "tmux attach-session || tmux"]
+program = "/bin/bash"
+
+[window]
+decorations = "none"
+startup_mode = "Maximized"
